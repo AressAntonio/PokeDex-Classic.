@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex||LaunchX</title>
+    <link rel="stylesheet" href="./css/pokedex.css">
+    
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokedex-left">
+            <div class="pokedex-left-top">
+                <div class="light is-sky is-big"></div>
+                <div class="light is-red"></div>
+                <div class="light is-yellow"></div>
+                <div class="light is-green"></div>
+                <h1>Pokedex Classic</h1>
+            </div>
+
+            <div class="pokedex-screen-container">
+                <div class="pokedex-screen">
+                    <div class="pokemon-info">
+                     <h2 class="pokemon-name">¿Quieres ver un Pokemon?<br>Ingresa un PokeID como por ejemplo '1'</h2>
+                     <img
+                      src="./assets/pokeball.gif" 
+                      alt="Pokemon" id="pokeImg" width="150px">
+                     </img>
+                      
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="pokedex-left-bottom">
+                <div class="pokedex-left-bottom-lights"></div>
+                <div class="light is-blue is-medium" ></div>
+                <div class="light is-green is-large" ></div>
+                <div class="light is-orange is-large" ></div>
+            </div>
+    
+            <input type="text" placeholder="Ingrese PokeID" id="pokeName" name="pokeName">
+    
+            <button class="pokemon-btn" onclick="fetchPokemon()"></button>
+
+        </div>
+        
+
+
+        <div class="pokedex-right-front"></div>
+        <div class="pokedex-right-back"></div>
+            
+         
+    </div>
+   
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>
