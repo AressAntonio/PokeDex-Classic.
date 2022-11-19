@@ -3,3 +3,5 @@ en el cual se puede visualizar pokemon ingesando un PokeID el cual puede ser el 
 
 Para el proyecto se utilizo HTML, CSS , JS asi como la api 
 https://pokeapi.co/api/v2/pokemon para poder mostrar al pokemon al ingresar el PokeID.
+
+Visita el sito: https://aressantonio.github.io/PokeDex-Classic./
